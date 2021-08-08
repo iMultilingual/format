@@ -26,3 +26,5 @@ int main() {
     */
 }
 ```
+
+* not the best one but yeah it works lmao
