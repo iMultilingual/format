@@ -12,7 +12,7 @@ public:
 		snprintf(buffer, sizeof(buffer), _fmt, _args...);
 	}
 
-	friend std::ostream& operator << (std::ofstream& _os, const format& _fmt) {
+	friend std::ostream& operator << (std::ostream& _os, const format& _fmt) {
 		_os << _fmt.buffer;
 
 		return _os;
